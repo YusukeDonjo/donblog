@@ -1,6 +1,6 @@
 # Basic
 title = "don blog"
-baseURL = "https://vno-hugo.netlify.app/"
+baseURL = "https://yusukedonjo.github.io/donblog/"
 theme = "vno-hugo"
 
 # supported languages: en-us, zh-cn (lowercase language codes only)
