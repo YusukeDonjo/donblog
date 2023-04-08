@@ -5,8 +5,8 @@
       <div class="panel-main__inner panel-inverted">
       <div class="panel-main__content">
   
-          <a href="/donblog/#blog" title="Homepage of {{ .Site.Title }} " class="blog-button"><img src="/images/avatar.jpg" width="80" alt="{{ .Site.Title }} logo" class="panel-cover__logo logo" /></a>
-          <h1 class="panel-cover__title panel-title"><a href="/donblog/#blog" title="Homepage of {{ .Site.Title }}" class="blog-button">{{ .Site.Title }}</a></h1>
+          <a href="/#blog" title="Homepage of {{ .Site.Title }} " class="blog-button"><img src="/images/avatar.jpg" width="80" alt="{{ .Site.Title }} logo" class="panel-cover__logo logo" /></a>
+          <h1 class="panel-cover__title panel-title"><a href="/#blog" title="Homepage of {{ .Site.Title }}" class="blog-button">{{ .Site.Title }}</a></h1>
           {{ if (.Site.Params.subTitle) }}
           <span class="panel-cover__subtitle panel-subtitle">{{ .Site.Params.subTitle }}</span>
           {{end}}
@@ -22,7 +22,7 @@
             <div>
               <nav class="cover-navigation cover-navigation--primary">
                 <ul class="navigation">
-                  <li class="navigation__item"><a href="/donblog/#blog" title="{{ .Site.Params.blogButton.Title }}" class="blog-button">{{ .Site.Params.blogButton.Title }}</a></li>
+                  <li class="navigation__item"><a href="/#blog" title="{{ .Site.Params.blogButton.Title }}" class="blog-button">{{ .Site.Params.blogButton.Title }}</a></li>
                   {{ range .Site.Menus.main }}
                     <li class="navigation__item"><a href="{{ .URL }}" target="_blank" title="{{ .Name}}">{{ .Name }}</a></li>
                   {{ end }}

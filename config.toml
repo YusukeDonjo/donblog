@@ -73,8 +73,8 @@ title = "Blog"
 description = "Visit blog"
 
 [params.copyright]
-license = 'CC BY-NC-SA 4.0'
-license_link = 'http://creativecommons.org/licenses/by-nc-sa/4.0/'
+license = 'Copyright © don blog 2023'
+#license_link = 'http://creativecommons.org/licenses/by-nc-sa/4.0/'
 
 [permalinks]
-posts = "/:year/:month/:title/"
+posts = "/:year/:month/:day/:title/"
