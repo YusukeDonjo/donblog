@@ -1,5 +1,5 @@
 # Basic
-title = "Vno Hugo"
+title = "don blog"
 baseURL = "https://vno-hugo.netlify.app/"
 theme = "vno-hugo"
 
@@ -37,12 +37,12 @@ tag = "tags"
 
 [params]
 author = "onevcat"
-subtitle = "A blog-orientation theme for Hugo"
-description = "Vno Hugo is a port of Vno Jekyll."
-welcomeMessage = "Oh What a World"
+subtitle = ""
+description = "日常を発信するだけのブログです"
+welcomeMessage = ""
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-coverColor = "red"
+coverColor = "black"
 
 [params.comment]
 disqus = "vno-hugo"
@@ -56,16 +56,16 @@ repo = ""
 owner = ""
 
 [params.social]
-weibo = "onevcat"
-github = "onevcat"
-twitter = "onevcat"
-gplus = "107108267983477358170"
-mail = "onev@onevcat.com"
-linkedin = "example"
-
+#weibo = "onevcat"
+github = "YusukeDonjo"
+#twitter = "onevcat"
+#gplus = "107108267983477358170"
+mail = "dnjysk@gmail.com"
+#linkedin = "example"
+instagram = "yuuuusuke_24?igshid=YmMyMTA2M2Y="
 [params.ga]
 ID = "your_ga_id"
-host = "your_host"
+host = "your_host" # ここは一旦スルー　google analyticksかも
 
 # The blog button should not be removed.
 [params.blogButton]
